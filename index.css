@@ -1,0 +1,266 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.header {
+    min-height: 50px;
+    background-color: #F5B4B3;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+}
+
+.head1 {
+    float: left;
+}
+
+.head2 {
+    float: right;
+}
+img {
+    max-height: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.customImg {
+    width: 100%;
+    max-height: 150px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 5rem;
+    position: relative;
+    top: -100px;
+    color: white;
+    text-align: center;
+}
+
+#listMenu {
+    float: left;
+    margin: 0;
+}
+
+#listMenu  ul {
+    margin: 0;
+    padding-left: 0;
+}
+#listMenu li {
+    width: 300px;
+    background-color: #F5B4B3;
+    height: 6rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#listMenu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    display: block;
+}
+
+.wrap_content {
+    display: block;
+}
+
+.wrap_content #listMenu {
+    margin-right: 50px;
+}
+
+.testprofile {
+    opacity: 0.6;
+}
+
+#content {
+    float: left;
+    height: 200px;
+}
+
+#listMenu li:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    background-color: #4D4D4D;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    display: table;
+}
+
+.footer p {
+    
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+table tr {
+    margin-bottom: 20px;
+}
+
+#content {
+    display: none;
+}
+
+#content table th { 
+    text-align: right;
+    width: 150px;
+    padding-right: 10px;
+    
+}
+
+#content td {
+    background-color: red;
+}
+
+#content table .kinput{
+    
+    border: none;
+    max-width: 10px;
+    margin: 0;
+}
+
+#content table td {
+    width: 480px;
+    height: 3rem;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 480px;
+}
+
+#content table tr #cont {
+    height: 7rem;
+}
+
+#content .firstRow {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+ .kth {
+    width: 150px;
+    height: 2rem;
+    text-align: right;
+    font-size: 2rem;
+}
+.tdBoite {
+    width: 480px;
+    height: 20px;
+    border: 2px solid grey;
+    margin-left: 10px;
+}
+
+h3 {
+    display: inline;
+    font-size: 2rem;
+}
+
+.typeBoite {
+    width: 480px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.type {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    font-size: 3rem;
+    background-color: #008B8B;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-bottom: 200px;
+}
+
+textarea {
+    margin-left: 10px;
+    display: inline;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+
+#profil table th{
+    
+    width: 20px;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#profil table td {
+    width: 750px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.hideProfil {  
+    display: none;
+} 
+
+.liselected{
+    opacity: 0.6;
+}
+
+.CfirstRow {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 350px;
+}
+
+.customText {
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    margin-left: 590px;
+}
