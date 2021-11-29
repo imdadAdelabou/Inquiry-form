@@ -4,4 +4,4 @@
 
 # 📸 SCREENSHOTS
 
-<img src="/screenshots/result.png" />
+<img src="/screenshots/result.png" width="70px" />
